@@ -1,0 +1,248 @@
+*
+{
+    margin: 0;
+    color: white;
+    font-family: 'Source Sans 3', sans-serif;
+}
+a:link, a:active, a:hover, a:visited
+{
+    text-decoration: none;
+    color: white;
+}
+#page
+{
+    display: grid;
+    grid-template-rows: 100px, 100px, 800px, 180px;
+    height: 100vh;
+
+}
+#logo
+{
+    flex: 1;
+    width: 170px;
+    height: 100px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+#menu
+{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: solid 1px white;
+}
+.link:hover
+{
+    cursor: pointer;
+    color: gray;
+    opacity: 0.5;
+    transition: 1s;
+}
+.link
+{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size:x-large;
+    font-weight: bolder;
+}
+.text
+{
+    flex: 11;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 1100px;
+    height: 550px;
+    position: relative;
+}
+.text pre
+{
+    position: absolute;
+    display:inline-block;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 95px;
+    left:90px;
+    font-family: 'EB Garamond', serif;
+}
+#me
+{
+    position: absolute;
+    display:inline-block
+    position: absolute;
+    margin-top: 20px;
+    height: 500px;
+    width: 300px;
+    right:90px;
+}
+#footer_contact
+{
+    background-color: black;
+    padding: 20px;
+    margin-top: 70px;
+    flex: 1;
+}
+.footer_style
+{
+    display: inline-block;
+    
+}
+#footer_author
+{
+    background-color: black;
+    margin-top: 70px;
+    flex: 1;
+    text-align: right;
+    padding: 25px;
+    font-style: oblique;
+}
+#footer_author span
+{
+    margin-right: 40px;
+}
+#footer_social_media
+{
+    background-color: black;
+    margin-top: 70px;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+#footer_social_media > a
+{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+#footer
+{
+    flex: 1;
+    display: flex;
+}
+.Certificates
+{
+    width: 250px;
+    height: 200px;
+    display:inline-block;
+    margin-top: 50px;
+    box-shadow: -1px -1px 10px 9px gray;
+}
+.Certificates:hover 
+{
+    transform: scale(3);
+}
+#Certificat
+{
+    display:inline-block;
+    height: 550px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    column-count: 3;
+}
+#my_skils
+{
+    margin-top: 100px;
+    text-align: center;
+    top: 50%;
+}
+.skils_pic
+{
+    width: 100px;
+    height: 100px;
+    display:inline-block;
+    margin-left: 40px;
+    box-shadow: 0px 1px 15px 3px #bdbaba;
+}
+.skils
+{
+    display:inline-block;
+    height: 160px;
+    width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px; 
+}
+.skils_pic:hover 
+{
+    transform: scale(1.5);
+}
+.learning
+{
+    display:inline-block;
+    height: 550px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    column-count: 3;
+}
+.learn
+{
+    display:inline-block;
+    width: 300px;
+    height: 220px;
+    background: rgb(72,72,78);
+    background: linear-gradient(180deg, rgba(72,72,78,1) 29%, rgba(1,1,14,1) 66%);
+    margin: 15px;
+}
+.article
+{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: small;
+}
+.paragraph
+{
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.img
+{
+    margin-top: 15px;
+}
+.address
+{
+    display:inline-block;
+    height: 550px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+    background-color: rgb(10, 10, 10);
+}
+#me2
+{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    height: 500px;
+    width: 280px;
+}
+.Contact
+{
+    display: inline-block;
+    text-align: left;
+    right: 80px;
+    bottom: 85px;
+    position: absolute;
+    font-size: 18px;
+    padding: 5px;
+}
+#image
+{
+    height: 300px;
+    width: 550px;
+    position: absolute;
+    right: 80px;
+    top: 35px;
+}
